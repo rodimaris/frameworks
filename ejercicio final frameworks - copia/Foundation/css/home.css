@@ -1,0 +1,111 @@
+.Total{
+  background: url(../img/1.jpg) left top repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+.Background{
+background-color: rgba(255, 76, 71, 0.2);
+}
+
+.Titulo{
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+
+.encabezado{
+  border-bottom: 3px solid black;
+}
+
+.Titulo h3{
+  color: rgb(255, 29, 93);
+}
+.slogan {
+  font-size: 25px;
+  font-style: italic;
+  font-family: fantasy;
+  color: rgb(0, 130, 143);
+  text-align: left;
+}
+
+.cocinar{
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 3px
+}
+
+.menu{
+  background-color: #ffe6ff;
+}
+
+.Blog{
+  background-color: lightblue;
+}
+
+.Searchbar{
+  margin: 10px;
+  padding: 5px;
+}
+
+.Searchbar span{
+  background-color: purple;
+  color: white;
+}
+
+.Vmenu li {
+  margin-bottom: 0px;
+  padding: 5px;
+}
+
+#historial{
+  color:
+}
+
+.izq{
+  margin-left: 13px;
+}
+
+.Imagenes {
+  display: flex;
+	flex-flow: row wrap;
+}
+
+.Imagenes > div{
+  width: 33%;
+}
+
+.Imagenes >div > img{
+  height: 120px;
+  width: 100%;
+}
+
+.imgblog{
+  display: block;
+  align-items: center;
+}
+
+.Blog h6 {
+  color: rgb(255, 29, 93);
+  margin-bottom: 0;
+}
+
+.Blog h5 {
+  color: rgb(129, 155, 93);
+  margin-bottom: 0;
+  text-align: center;
+}
+
+hr{
+  background-color: red;
+}
+
+.avatar img {
+  width: 40px;
+  height: 40px;
+}
+
+.Comentarios span{
+  padding: 5px 0px;
+}
+.commentuser input{
+  padding: 0px;
+}

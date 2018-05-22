@@ -1,0 +1,151 @@
+.Contenido{
+  background: url(../img/fondo.jpg) left top repeat;
+  background-size: 100%;
+  overflow: hidden;
+  padding: 0px;
+}
+
+
+.Logoyredes{
+background-color: rgba(0, 193, 255, 0.2);
+margin: 0px;
+padding: 0px;
+}
+
+.Blog{
+  background-color: rgba(255, 163, 0, 0.2);
+}
+
+.Blog1{
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.Buscador{
+  background-color: rgba(255, 0, 0, 0.2);
+
+}
+
+.Logo img{
+  width: 100%;
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.Redes1{
+  margin-bottom: 20px;
+}
+
+.Menu{
+  background-color: rgba(0, 193, 255, 0.5)
+}
+
+.Menu a {
+  color: white;
+}
+.Menu nav :hover{
+  background-color: lightblue;
+}
+
+.caption {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 50%;
+    color: yellow;
+    font-size: 1rem;
+    background-color: rgba(255, 0, 0, 0.3);
+    background-clip: border-box;
+    border-radius: 50px;
+}
+
+
+.slogan{
+  margin: 0px;
+}
+
+.searchpart{
+  width: 80%;
+}
+
+.Partebaja{
+  margin-top: 20px;
+}
+
+.contblog img{
+  margin: 10px;
+}
+
+.buscadoropt ul{
+  width: 90%;
+}
+
+.buscadoropt a{
+  width: 80%;
+}
+
+.buscadoropt h3{
+  background-color: white;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+hr{
+  background-color: yellow;
+}
+
+
+.facebook {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}

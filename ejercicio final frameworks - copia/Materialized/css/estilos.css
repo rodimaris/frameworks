@@ -1,0 +1,91 @@
+.logo{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+.navbar{
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.navbar i{
+  float: left;
+  padding: 0px 5px;
+}
+
+.navbar li{
+  max-height: 64px;
+}
+
+.Slogan{
+  padding: 0px;
+  margin: 0px;
+  border: 2px dashed white;
+}
+
+.todo{
+  background: url(../img/Galapagos.png) left top repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.autor img{
+  width: 100%;
+}
+
+.Foto1{
+-webkit- filter:blur(1px);
+filter: blur(1px);
+border: 1px solid yellow;
+}
+.Foto2{
+-webkit- filter:grayscale(70%);
+filter:grayscale(70%);
+border: 1px solid yellow;
+}
+.Foto3{
+-webkit- filter: sepia(50%);
+filter:sepia(50%);
+border: 1px solid yellow;
+}
+
+.Molinos{
+  flex-flow: row wrap;
+}
+.Molinos img{
+  width: 100%;
+  float: left;
+  }
+
+.Molinos h5{
+  border-radius: 5px;
+}
+
+@media -webkit- all and (max-width: 700px){
+.bloque1{
+    width: 100%;
+    order: 2;
+  }
+.bloque2{
+    order: 3;
+    width: 100%;
+  }
+.bloque3{
+    order: 1;
+    width: 100%;
+  }
+.bloque4{
+      order: 4;
+      width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+.navbar img{
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+
+}
+}
